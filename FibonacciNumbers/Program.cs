@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FibonacciNumbers
 {
-    public class Program
+    public class Program  //public set for unit tests
     {
         static void Main(string[] args)
         {
@@ -16,7 +16,7 @@ namespace FibonacciNumbers
             }
         }
 
-        public static List<int> FibonacciNumbers(int count)
+        public static List<int> FibonacciNumbers(int count)  //public set for unit tests
         {
             List<int> numbers = new List<int> { 1, 1 };
             if (count <= 0)
